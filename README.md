@@ -37,5 +37,4 @@ Complete RTL implementation of a UART communication controller paired with an in
 ---
 
 ### Stats
-![Atanu's GitHub Stats](https://github-readme-stats.vercel.app/api?username=atanumondal7&show_icons=true&theme=nord)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=atanumondal7&layout=compact&theme=nord)
+![Atanu's GitHub Stats](https://github-readme-streak-stats.herokuapp.com/?user=atanumondal7&theme=nord)
