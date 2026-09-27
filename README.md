@@ -1,7 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00A99D&center=true&vCenter=true&width=600&lines=Digital+Design+%26+Verification+Engineer;SystemVerilog+%7C+UVM+%7C+RTL;Building+Silicon-Grade+Testbenches" alt="Typing SVG" />
-
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1200&color=61AFEF&center=true&vCenter=true&width=700&lines=Digital+Design+%26+Verification;SystemVerilog+%7C+UVM+%7C+RTL;Coverage+Models%2C+Hand-Coded+from+Scratch" alt="Typing SVG" />
 </div>
 
 <h1 align="center">Atanu Mondal</h1>
