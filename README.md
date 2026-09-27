@@ -48,11 +48,15 @@
 
 ---
 
-### Featured Projects
+### ⚙️ Featured Projects
 
 **[UART Controller + UVM Testbench](https://github.com/atanumondal7/UART)**
 
 Full RTL for a UART controller (TX/RX/top-level) with an industry-standard UVM verification environment — `uvm_config_db`, TLM analysis ports, sequences, scoreboard-based data integrity checks.
+
+Handles baud-rate mismatch analytically rather than assuming a perfect divider — see [README](https://github.com/atanumondal7/UART/blob/aced01b6b3f38705054e6caed9710b730e8905d3/README.md) for the ~0.46% timing margin calculation.
+
+Chose 16x oversampling with mid-bit resampling over a simpler edge-triggered start — costs more logic, but rejects line glitches and keeps sampling centered even with the ~0.46% baud mismatch.
 
 <img src="https://raw.githubusercontent.com/atanumondal7/UART/main/docs/uart_waveform.gif" />
 
@@ -65,6 +69,18 @@ Full RTL for a UART controller (TX/RX/top-level) with an industry-standard UVM v
 Progressive collection from basic combinational blocks (adders, muxes, decoders) to sequential circuits and FIFOs, alongside a matching progression in class-based OOP verification.
 
 `SystemVerilog` `Icarus Verilog` `GTKWave`
+
+---
+
+<table>
+<tr>
+<td>
+
+Each project pushes the verification methodology further — the [SystemVerilog DV Workspace](https://github.com/atanumondal7/SystemVerilog-Workspace) built the OOP/class-based foundation, and [UART](https://github.com/atanumondal7/UART) applies it against real protocol timing with a manually coded coverage model where the standard flow wasn't available.
+
+</td>
+</tr>
+</table>
 
 ---
 
