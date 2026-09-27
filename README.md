@@ -48,30 +48,23 @@
 
 ---
 
-### 🚀 Featured Projects
-
-<table>
-<tr>
-<td width="50%">
+### Featured Projects
 
 **[UART Controller + UVM Testbench](https://github.com/atanumondal7/UART)**
 
 Full RTL for a UART controller (TX/RX/top-level) with an industry-standard UVM verification environment — `uvm_config_db`, TLM analysis ports, sequences, scoreboard-based data integrity checks.
 
+<img src="https://raw.githubusercontent.com/atanumondal7/UART/main/docs/uart_waveform.gif" />
+
 `SystemVerilog` `UVM` `Questa` `Git`
 
-</td>
-<td width="50%">
+---
 
 **[SystemVerilog DV Workspace](https://github.com/atanumondal7/SystemVerilog-Workspace)**
 
 Progressive collection from basic combinational blocks (adders, muxes, decoders) to sequential circuits and FIFOs, alongside a matching progression in class-based OOP verification.
 
 `SystemVerilog` `Icarus Verilog` `GTKWave`
-
-</td>
-</tr>
-</table>
 
 ---
 
