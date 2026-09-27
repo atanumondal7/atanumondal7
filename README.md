@@ -17,7 +17,7 @@
 ### 🔭 About Me
 
 - 🎓 B.Tech Electronics (VLSI Design & Technology) Student
-- 🌱 Building expertise in **UVM**, **SystemVerilog Assertions (SVA)**, and protocol-level verification
+- 🌱 Developing expertise in **UVM**, **SystemVerilog Assertions (SVA)**, and protocol-level verification
 - 🛠️ Building modular, reusable verification IP (mailboxes, generators, drivers, scoreboards)
 - 💬 Ask me about: digital logic design, class-based OOP testbenches, or Python for EDA automation
 
@@ -48,7 +48,7 @@
 
 ---
 
-### Featured Projects
+### 🚀 Featured Projects
 
 <table>
 <tr>
@@ -78,8 +78,8 @@ Progressive collection from basic combinational blocks (adders, muxes, decoders)
 ### 📊 GitHub Stats
 
 <div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=atanumondal7&show_icons=true&theme=nord&hide_border=true&cache_seconds=86400"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=atanumondal7&layout=compact&theme=nord&hide_border=true&cache_seconds=86400"/>
+<img height="165" src="https://github-readme-stats-cy3c0c0e7-cyborgs-34b4.vercel.app/api?username=atanumondal7&show_icons=true&theme=nord&hide_border=true"/>
+<img height="165" src="https://github-readme-stats-cy3c0c0e7-cyborgs-34b4.vercel.app/api/top-langs/?username=atanumondal7&layout=compact&theme=nord&hide_border=true"/>
 </div>
 
 <div align="center">
