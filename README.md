@@ -26,24 +26,24 @@
 
 **Languages & Methodologies**
 
-![SystemVerilog](https://img.shields.io/badge/SystemVerilog-4B0082?style=flat-square)
-![UVM](https://img.shields.io/badge/UVM-8A2BE2?style=flat-square)
-![Verilog](https://img.shields.io/badge/Verilog-1E90FF?style=flat-square)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SystemVerilog](https://img.shields.io/badge/SystemVerilog-4B0082?style=for-the-badge)
+![UVM](https://img.shields.io/badge/UVM-8A2BE2?style=for-the-badge)
+![Verilog](https://img.shields.io/badge/Verilog-1E90FF?style=for-the-badge)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 **EDA & Simulation Tools**
 
-![Questa](https://img.shields.io/badge/Siemens_Questa-009999?style=flat-square)
-![Icarus Verilog](https://img.shields.io/badge/Icarus_Verilog-333333?style=flat-square)
-![GTKWave](https://img.shields.io/badge/GTKWave-4CAF50?style=flat-square)
-![Quartus](https://img.shields.io/badge/Quartus_Prime-0071C5?style=flat-square)
+![Questa](https://img.shields.io/badge/Siemens_Questa-009999?style=for-the-badge&logo=siemens&logoColor=white)
+![Icarus Verilog](https://img.shields.io/badge/Icarus_Verilog-333333?style=for-the-badge)
+![GTKWave](https://img.shields.io/badge/GTKWave-4CAF50?style=for-the-badge)
+![Quartus](https://img.shields.io/badge/Quartus_Prime-0071C5?style=for-the-badge&logo=intel&logoColor=white)
 
 **Workflow**
 
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux%2FWSL-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux%2FWSL-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ---
 
