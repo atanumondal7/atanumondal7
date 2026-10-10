@@ -51,11 +51,11 @@
 
 **[UART Controller + UVM Testbench](https://github.com/atanumondal7/UART)**
 
-Full RTL for a UART controller (TX/RX/top-level) with an industry-standard UVM verification environment — `uvm_config_db`, TLM analysis ports, sequences, scoreboard-based data integrity checks.
+Full RTL for a UART controller (TX/RX/top-level) in SystemVerilog, verified with an industry-standard UVM verification environment — `uvm_config_db`, TLM analysis ports, sequences, scoreboard-based data integrity checks. 
 
-Handles baud-rate mismatch analytically rather than assuming a perfect divider — see [README](https://github.com/atanumondal7/UART/blob/aced01b6b3f38705054e6caed9710b730e8905d3/README.md) for the ~0.46% timing margin calculation.
-
-Chose 16x oversampling with mid-bit resampling over a simpler edge-triggered start — costs more logic, but rejects line glitches and keeps sampling centered even with the ~0.46% baud mismatch.
+- **Baud-rate mismatch:** Handles baud-rate mismatch analytically rather than assuming a perfect divider. See [README](https://github.com/atanumondal7/UART/blob/main/README.md) for the ~0.46% timing margin calculation.
+- **16x oversampling with mid-bit resampling:** Chosen over a simpler edge-triggered start. It costs more logic, but rejects line glitches and keeps sampling centered even with the ~0.46% baud mismatch.
+- **Result:** Simulated in Questa with zero scoreboard mismatches and 100% of the manually coded coverage bins hit.
 
 <img src="https://raw.githubusercontent.com/atanumondal7/UART/main/docs/uart_waveform.gif" />
 
@@ -65,9 +65,14 @@ Chose 16x oversampling with mid-bit resampling over a simpler edge-triggered sta
 
 **[SystemVerilog DV Workspace](https://github.com/atanumondal7/SystemVerilog-Workspace)**
 
-Progressive collection from basic combinational blocks (adders, muxes, decoders) to sequential circuits and FIFOs, alongside a matching progression in class-based OOP verification.
+Progressive collection of Verilog and SystemVerilog designs, from gate-level blocks to class-based, coverage-driven verification environments. Each project pairs a DUT with a self-checking testbench.
 
-`SystemVerilog` `Icarus Verilog` `GTKWave`
+- **Design range:** Adders, 4-bit ALU, Priority Encoder, Decoder, FIFO Buffer and a Universal Shift Register
+- **Verification progression:** Started with directed stimulus and `$monitor` statements, then moved to a coverage-driven ALU testbench (constrained-random stimulus, class-based scoreboard), and reworked that into a layered UVM-style architecture of generator, driver, monitor, scoreboard, and coverage, connected through virtual interfaces and mailboxes.
+- **Tool progression:** The `basics/` directory holds my first Verilog code, simulated in Icarus Verilog and GTKWave. The later class-based and coverage-driven accordingly to Aldec Riviera and then Questa.
+- **Debugging highlight:** On the Universal Shift Register, I traced a 2-cycle sampling offset between the monitor and the DUT. Fixed it by edge-priming the monitor and a 2-stage input history buffer, reaching 100% functional coverage.
+
+`Verilog` `SystemVerilog` `Icarus Verilog` `GTKWave` `Questa` `Git`
 
 ---
 
