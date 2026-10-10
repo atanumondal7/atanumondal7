@@ -16,9 +16,9 @@
 ### 🔭 About Me
 
 - 🎓 B.Tech Electronics (VLSI Design & Technology) Student
-- 🌱 Developing expertise in **UVM**, **SystemVerilog Assertions (SVA)**, and protocol-level verification
-- 🛠️ Building modular, reusable verification IP (mailboxes, generators, drivers, scoreboards)
-- 💬 Ask me about: digital logic design, class-based OOP testbenches, or Python for EDA automation
+- 🌱 Developing expertise in **UVM**, **SystemVerilog Assertions (SVA)** while learning advanced protocol-level verification 
+- 🛠️ Built mailbox-connected class-based testbenches (generator, driver, monitor, scoreboard); now rebuilding them as reusable Verification IP with **UVM** and **TLM ports**
+- 💬 Open to technical discussion on digital logic design, object-oriented verification environments, and Python-based EDA automation
 
 ---
 
